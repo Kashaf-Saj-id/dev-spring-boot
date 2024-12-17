@@ -15,7 +15,7 @@ public class FunRestController {
     //expose new endpoint for team info
     @GetMapping("/teamInfo")
     public String teaminfo(){
-        return "Coach "+ coachName+ " is the metor of team "+teamName ;
+        return "Coach "+ coachName+ " is the mentor of team "+teamName ;
     }
 
     // expose "/" that return "Hello World"
